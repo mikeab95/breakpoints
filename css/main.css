@@ -1,12 +1,18 @@
+body {
 
+  background: green;
+
+}
 /* ----------- For screens 768px and larger ----------- */
-@media () {
+@media (min-width: 768px) {
 	body {
-    background: red;
+    background: black;
   }
 }
 
 /* ----------- For screens 1200px wide and larger----------- */
-@media () {
-
+@media (min-width: 1200px) {
+  body {
+    background: blue;
+  }
 }
